@@ -32,8 +32,12 @@ h2 {
 	background-color:#4CC4A7;
 }
 
+#logo {
+	margin-left: 100px;
+}
+
 ul.nav {
-	margin: 120px 0 0 0;
+	margin: 90px 100px 0 0;
 	list-style: none;
 	float: right;
 }
@@ -48,7 +52,12 @@ ul.nav li a {
 }
 
 #intro {
-	margin: 50px 0 75px 0;
+	margin: 20px 0 60px 0;
+	clear: both;
+}
+
+#intro h1 {
+	margin-right: 50px;
 }
 
 #new-cupcakes img {
@@ -65,4 +74,8 @@ ul.nav li a {
 	padding: 10px 0px;
 	margin: 15px 0px;
 	text-align: center;
+}
+
+#selfpic {
+	margin-top: 20px;
 }
