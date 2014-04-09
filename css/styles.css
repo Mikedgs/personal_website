@@ -4,9 +4,15 @@ body {
 	background: #FF0000;
 }
 
+p {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+
 .container {
 	background-color: white;
-	padding: 10px 20px;
+	padding: 0px 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 5px;
@@ -24,7 +30,7 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
-	color: brown;
+	color: #FF0000;
 }
 
 .btn {
@@ -42,10 +48,11 @@ h2 {
 
 #logo {
 	margin-left: 50px;
+
 }
 
 ul.nav {
-	margin: 90px 100px 0 0;
+	margin: 90px 0 0 0;
 	list-style: none;
 	float: right;
 }
@@ -57,7 +64,10 @@ ul.nav li {
 
 ul.nav li a {
 	color: #FF0000;
-	font-size: 25px;
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	font-weight:900;
+	letter-spacing: 1px;
 }
 
 ul.nav li a:hover {
@@ -65,12 +75,24 @@ ul.nav li a:hover {
 }
 
 #intro {
-	margin: 20px 0 60px 0;
+	margin: 20px 0 40px 0;
 	clear: both;
 }
 
 #intro h1 {
 	margin-right: 50px;
+}
+
+#introcontainer {
+	background-color: #222222;
+	overflow: auto;
+	height: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	margin-left: -20px;
+	width: 1000px;
+	margin-bottom: 20px;
 }
 
 #new-cupcakes img {
@@ -85,10 +107,14 @@ ul.nav li a:hover {
 }
 
 #copyright {
-	border-top: 8px solid #FF0000;
+	background-color: #222222;
+	color: white;
 	padding: 10px 0px;
-	margin: 15px 0px;
 	text-align: center;
+	width: 1040px;
+	margin-left: -20px;
+	margin-bottom: 0;
+	border-radius: 0 0 5px 5px;
 }
 
 #selfpic img {
