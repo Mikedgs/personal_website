@@ -13,9 +13,6 @@ p {
 .container {
 	background-color: white;
 	padding: 0px 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-radius: 5px;
 }
 
 a {
@@ -47,7 +44,8 @@ h2 {
 }
 
 #logo {
-	margin-left: 50px;
+	margin-left: 30px;
+	margin-top: 10px;
 
 }
 
@@ -114,7 +112,6 @@ ul.nav li a:hover {
 	width: 1040px;
 	margin-left: -20px;
 	margin-bottom: 0;
-	border-radius: 0 0 5px 5px;
 }
 
 #selfpic img {
